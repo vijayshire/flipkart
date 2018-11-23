@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Flipkart]">
+  <test thread-count="5" name="Flipkart Test(failed)">
+    <classes>
+      <class name="TestCases.SelectDynamicProduct">
+        <methods>
+          <include name="aterMethod"/>
+          <include name="f"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- TestCases.SelectDynamicProduct -->
+    </classes>
+  </test> <!-- Flipkart Test(failed) -->
+</suite> <!-- Failed suite [Flipkart] -->

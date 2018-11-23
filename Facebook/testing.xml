@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Flipkart" preserve-order="true" parallel="false">
+<test name="Flipkart Test">
+<classes>
+
+<class name="TestCases.LoginToFlipkart" />
+<class name="TestCases.CheckCartIsEmpty" />
+<class name="TestCases.CheckMyAccountOptions" />
+<class name="TestCases.SearchProductAndSelect" />
+</classes>
+</test>
+</suite>
