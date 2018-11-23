@@ -44,11 +44,11 @@
 	<classpathentry kind="lib" path="G:/selenium-java-3.5.3/lib/xml-apis-1.4.01.jar"/>
 	<classpathentry kind="lib" path="G:/selenium-java-3.5.3/client-combined-3.5.3-nodeps.jar"/>
 	<classpathentry kind="lib" path="G:/selenium-java-3.5.3/client-combined-3.5.3-nodeps-sources.zip"/>
-	<classpathentry kind="lib" path="C:/Users/vijay/eclipse-workspace/Facebook/configs/config.jar"/>
 	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="configs/config.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
