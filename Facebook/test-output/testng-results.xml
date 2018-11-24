@@ -1,25 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="33541" started-at="2018-11-23T08:58:55Z" finished-at="2018-11-23T08:59:29Z">
+  <suite name="Flipkart" duration-ms="187691" started-at="2018-11-23T09:06:23Z" finished-at="2018-11-23T09:09:31Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="33541" started-at="2018-11-23T08:58:55Z" finished-at="2018-11-23T08:59:29Z">
-      <class name="TestCases.LoginToFlipkart">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.LoginToFlipkart@33723e30]" name="setUp" is-config="true" duration-ms="22674" started-at="2018-11-23T08:58:55Z" finished-at="2018-11-23T08:59:18Z">
+    <test name="Flipkart Test" duration-ms="187691" started-at="2018-11-23T09:06:23Z" finished-at="2018-11-23T09:09:31Z">
+      <class name="TestCases.CheckCartIsEmpty">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.CheckCartIsEmpty@5891e32e]" name="setUp" is-config="true" duration-ms="16952" started-at="2018-11-23T09:06:56Z" finished-at="2018-11-23T09:07:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="f()[pri:0, instance:TestCases.LoginToFlipkart@33723e30]" name="f" duration-ms="9800" started-at="2018-11-23T08:59:18Z" finished-at="2018-11-23T08:59:28Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:TestCases.CheckCartIsEmpty@5891e32e]" name="f" duration-ms="32905" started-at="2018-11-23T09:07:13Z" finished-at="2018-11-23T09:07:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="aterMethod()[pri:0, instance:TestCases.LoginToFlipkart@33723e30]" name="aterMethod" is-config="true" duration-ms="1011" started-at="2018-11-23T08:59:28Z" finished-at="2018-11-23T08:59:29Z">
+        <test-method status="PASS" signature="aterMethod()[pri:0, instance:TestCases.CheckCartIsEmpty@5891e32e]" name="aterMethod" is-config="true" duration-ms="6108" started-at="2018-11-23T09:07:46Z" finished-at="2018-11-23T09:07:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aterMethod -->
+      </class> <!-- TestCases.CheckCartIsEmpty -->
+      <class name="TestCases.SearchProductAndSelect">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.SearchProductAndSelect@8e24743]" name="setUp" is-config="true" duration-ms="17314" started-at="2018-11-23T09:08:45Z" finished-at="2018-11-23T09:09:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="f()[pri:0, instance:TestCases.SearchProductAndSelect@8e24743]" name="f" duration-ms="26669" started-at="2018-11-23T09:09:03Z" finished-at="2018-11-23T09:09:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="aterMethod()[pri:0, instance:TestCases.SearchProductAndSelect@8e24743]" name="aterMethod" is-config="true" duration-ms="1747" started-at="2018-11-23T09:09:29Z" finished-at="2018-11-23T09:09:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aterMethod -->
+      </class> <!-- TestCases.SearchProductAndSelect -->
+      <class name="TestCases.CheckMyAccountOptions">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.CheckMyAccountOptions@cb0ed20]" name="setUp" is-config="true" duration-ms="18358" started-at="2018-11-23T09:07:52Z" finished-at="2018-11-23T09:08:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="f()[pri:0, instance:TestCases.CheckMyAccountOptions@cb0ed20]" name="f" duration-ms="33444" started-at="2018-11-23T09:08:11Z" finished-at="2018-11-23T09:08:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="aterMethod()[pri:0, instance:TestCases.CheckMyAccountOptions@cb0ed20]" name="aterMethod" is-config="true" duration-ms="1234" started-at="2018-11-23T09:08:44Z" finished-at="2018-11-23T09:08:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aterMethod -->
+      </class> <!-- TestCases.CheckMyAccountOptions -->
+      <class name="TestCases.LoginToFlipkart">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.LoginToFlipkart@7a30d1e6]" name="setUp" is-config="true" duration-ms="19215" started-at="2018-11-23T09:06:23Z" finished-at="2018-11-23T09:06:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="f()[pri:0, instance:TestCases.LoginToFlipkart@7a30d1e6]" name="f" duration-ms="12634" started-at="2018-11-23T09:06:43Z" finished-at="2018-11-23T09:06:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="aterMethod()[pri:0, instance:TestCases.LoginToFlipkart@7a30d1e6]" name="aterMethod" is-config="true" duration-ms="1072" started-at="2018-11-23T09:06:55Z" finished-at="2018-11-23T09:06:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aterMethod -->
       </class> <!-- TestCases.LoginToFlipkart -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Flipkart Test -->
+  </suite> <!-- Flipkart -->
 </testng-results>
